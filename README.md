@@ -7,7 +7,7 @@
 |:---|:---|
 |Name |Kaito Kaki |
 |Location |Chiba |
-|X|https://x.com/cu30rry_|
+|X|[cu30rry_](https://x.com/cu30rry_)|
 |GitHub |[sc30gsw](https://github.com/sc30gsw) |
 |Qiita|[curry__30](https://qiita.com/curry__30)|
 |Zenn|[sc30gsw](https://zenn.dev/sc30gsw)|
