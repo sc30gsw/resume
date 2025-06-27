@@ -109,7 +109,10 @@ TypeScriptがもっとも経験が長いです。最新の仕様にも追従出�
 ### 利用した技術
 
 - Next.js 15系
+- Tailwind CSS
 - shadcn/ui
+- Conform
+- Zod
 - Biome
 - Auth0
 
