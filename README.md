@@ -566,46 +566,49 @@ ECシステムの顧客情報基盤システムの新規開発案件です。マ
 
 ### 業務概要
 
-社内の日報システムのリプレイス案件です。何にどれくらい工数を割いているかを管理するシステムを、Next.js 15とモダンな技術スタックで再構築しました。既存システムの課題を解決し、型安全性の向上、開発効率の改善、UI/UXの向上などを実現しました。IntentUIによるモダンなUI、Drizzle ORM + Tursoによる型安全なデータベース操作などを通じて、保守性と拡張性の高いシステムを構築しました。
+社内の日報システムのリプレイス案件です。何にどれくらい工数を割いているかを管理するシステムを、Remixとモダンな技術スタックで再構築しました。既存システムの課題を解決し、型安全性の向上、開発効率の改善、UI/UXの向上などを実現しました。Remixによるフルスタック開発、shadcn/uiによるモダンなUI、Prisma + MySQLによる型安全なデータベース操作、Dockerによる開発環境の統一などを通じて、保守性と拡張性の高いシステムを構築しました。
 
 ### 利用した技術
 
 **フロントエンド**
-- Next.js 15
+- TypeScript
+- Remix
 - Tailwind CSS
-- IntentUI
+- shadcn/ui
 
 **データベース**
-- Turso (SQLite)
-- Drizzle ORM
+- MySQL
+- Prisma
+
+**インフラ・開発環境**
+- Docker
+- docker compose
 
 **開発ツール**
-- Biome
+- Git
+- GitHub
+- Redmine
 
 ### プロジェクトの規模
 
 - PM/1名
 - PL/1名
 - テックリード/1名
-- メンバー/2名
+- メンバー/1名
 
 ### 自分の役割
 
-- **アーキテクチャ設計**
-  - 全体的なアーキテクチャの選定
-  - Next.js 15、IntentUI、Drizzle ORM、Tursoなどの技術スタック選定
+- **ライブラリ選定**
+  - 技術スタックの選定（Remix、shadcn/ui、Prisma、MySQLなど）
 
-- **設計・開発**
-  - システム設計（画面、データベース）
-  - Next.js 15によるフロントエンド開発
-  - IntentUIによるモダンなUI実装
-  - Drizzle ORM + Tursoによるデータベース操作の実装
-
-- **ドキュメンテーション**
-  - 開発者向けのドキュメンテーション作成
+- **開発**
+  - Remixによるアプリケーション開発
+  - shadcn/uiによるモダンなUI実装
+  - Prisma + MySQLによるデータベース操作の実装
+  - Dockerによる開発環境の構築
 
 
-## 自社コーポレートサイトの保守・運用（2023年11月〜現在）
+## 自社コーポレートサイトの保守・運用（2023年11月〜2025年4月）
 
 ### 業務概要
 
@@ -1043,9 +1046,9 @@ ECサイトのマイページ・認証ページおよび顧客管理面の追加
 
 # 自己PR
 ## 技術に関する自己PR
-現職では主にフロントエンド開発を担当しており、ReactやNext.jsを中心に、UI/UXを意識した実装を心がけています。必要に応じてバックエンド開発にも携わり、柔軟に対応しています。
+現職では主にフロントエンド開発を担当しており、ReactやNext.js・TanStack Startを中心に、UI/UXを意識した実装を心がけています。必要に応じてバックエンド開発にも携わり、Honoなどを使用した開発に注力するなどし、柔軟に対応しています。
 
-また個人開発では、Next.js（App Router）、React Native、AI技術に注力しており、以下のような技術スタックを積極的に活用しています。
+また個人開発では、Next.js（App Router）、TanStack Start、React Native、AI技術に注力しており、以下のような技術スタックを積極的に活用しています。
 
 - 言語・フレームワーク：TypeScript / Hono / React / Next.js / React Native / Expo
 - スタイリング：Tailwind CSS / shadcn/ui / intentUI / Mantine UI
@@ -1085,18 +1088,17 @@ ECサイトのマイページ・認証ページおよび顧客管理面の追加
 
 ## 業務内での活用
 - GitHub Copilot / Cursor / Claude Code を開発アシスタントとして活用し、コーディング自動化やコンテキスト設計のノウハウを推進
-- MCP を活用した開発体験（DX）の向上
-- ChatGPT / Claude による壁打ち・ドキュメント作成
-- Grok / Perplexity による技術調査
+- MCP を活用した開発体験（DX）・業務効率の向上
+- ChatGPT / Claude / Gemini の業務活用
+- Nano banana活用
+- Grok / Perplexity による調査
 - Raycast による文章リライト・業務効率化
-- Dia Browser によるAI検索
+- Dia・Comet Browser によるAI検索
 - v0 によるUI作成
 - new.email によるメールテンプレート生成
 
 ## 個人での活用
-- Notebook LM によるPodcast作成や要約など
-- suno  による音楽制作
-- bolt / a0 によるアプリ生成検証
+- bolt / a0 などによるアプリ生成検証
 
 # 英語力
 
